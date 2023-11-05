@@ -25,7 +25,7 @@ user_proxy = autogen.UserProxyAgent(
     system_message="A human admin.",
     is_termination_msg=lambda x: x.get("content", "").rstrip().endswith("TERMINATE"),
     max_consecutive_auto_reply=2,
-    human_input_mode="TERMINATE"
+    human_input_mode="TERMINATE",
     code_execution_config={
         "last_n_messages": 2, 
         "work_dir": "workspace"
