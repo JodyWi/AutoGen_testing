@@ -50,7 +50,7 @@ ethan = autogen.AssistantAgent(
     },
 )
 
-user_proxy.initiate_chat(cody, message="Write a srcipt to check the date a time, try using python")
+user_proxy.initiate_chat(ethan, message="Write a srcipt to check the date a time, try using python")
 
 #result your current date and time
 
