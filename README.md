@@ -23,3 +23,8 @@ python -m fastchat.serve.openai_api_server --host localhost --port 8000
 
 ________________________________________
 
+Once FastChat is running in background.
+
+Run Script.
+
+EG only.
