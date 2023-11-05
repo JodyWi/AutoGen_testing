@@ -7,7 +7,7 @@ config_list = [
         "model": "vicuna-7b-v1.5-16k",
         "api_base": "http://localhost:8000/v1",
         "api_type": "open_ai",
-        "api_key": "YOUR_OPENAI_API_KEY",  # Replace with your OpenAI API key
+        "api_key": "YOUR_OPENAI_API_KEY",  # Place holder only, No API required 
     }
 ]
 
